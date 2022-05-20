@@ -48,4 +48,5 @@ console.log(value);
 }
 [1,2,3].forEach(console.log);
 
-
+W javascriptcie iteracja może się odbywać za pomocą wielu pomocniczych funkcji podstawowych.
+tworzących nasze narzędzia.

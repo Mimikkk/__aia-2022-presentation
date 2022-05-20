@@ -14,6 +14,9 @@ Terminologia oraz narzędzia, z którymi was zapoznam to:
 - iterator
 - unit
 
+Funkcja to taka rzecz, która jest niezależna od innych obietków.
+
+
 Brzmi strasznie, ale nie jest to wcale takie złożone. weźmy na początek terminologię związaną nam już znanym czyli
 programowaniem obiektowym.
 

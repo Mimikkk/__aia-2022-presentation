@@ -1,4 +1,14 @@
+Wykłady: 
+
+Link: [Domain Modeling Made Functional - Scott Wlaschin](https://www.youtube.com/watch?v=1pSH8kElmM4)
+
+Link: [Functional Design Patterns - Scott Wlaschin](https://www.youtube.com/watch?v=srQt1NAHYC0)
+
+Link: [The Functional Programmer's Toolkit - Scott Wlaschin](https://www.youtube.com/watch?v=Nrp_LZ-XGsY)
+
 Zasób zawierający większość informacji dotyczące aktualnego stanu świata programowania funkcyjnego w Javascript'cie.
+
+Zasoby:
 
 Link: [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
 

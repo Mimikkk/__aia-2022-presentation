@@ -12,10 +12,9 @@ Terminologia oraz narzędzia, z którymi was zapoznam to:
 - currying
 - catamorphism
 - iterator
-- unit 
+- unit
 
-Brzmi strasznie, ale nie jest to wcale takie złożone. 
-weźmy na początek terminologię związaną nam już znanym czyli
+Brzmi strasznie, ale nie jest to wcale takie złożone. weźmy na początek terminologię związaną nam już znanym czyli
 programowaniem obiektowym.
 
 Jesteśmy przyzwyczajeni do myślenia o kodzie w jeden sposób, obiektowy, odrzucając często znaczące elementy funkcji.

@@ -3,17 +3,19 @@ predyspozycji do języków obietkowych.
 
 Terminologia oraz narzędzia, z którymi was zapoznam to:
 
-- function: TODO
-- monad: TODO
-- monoid: TODO
-  - effect: TODO
-- applicative: TODO
-- functor: TODO
-- currying: TODO
-- catamorphism: TODO
-- iterator: TODO
+- function
+- monad
+- monoid
+- effect
+- applicative
+- functor
+- currying
+- catamorphism
+- iterator
+- unit 
 
-Brzmi strasznie, ale nie jest to wcale takie złożone. weźmy na początek terminologię związaną nam już znanym czyli
+Brzmi strasznie, ale nie jest to wcale takie złożone. 
+weźmy na początek terminologię związaną nam już znanym czyli
 programowaniem obiektowym.
 
 Jesteśmy przyzwyczajeni do myślenia o kodzie w jeden sposób, obiektowy, odrzucając często znaczące elementy funkcji.

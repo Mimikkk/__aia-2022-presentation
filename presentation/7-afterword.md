@@ -20,4 +20,6 @@ Przykład:
 const double = x => x * 2;
 const quadruple = double |> double;
 const num = quadruple(2);
+console.log(num);
+>>> 8
 </pre>

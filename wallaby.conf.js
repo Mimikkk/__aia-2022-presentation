@@ -1,8 +1,8 @@
 module.exports = () => ({
   files: [
-    "src/**/*.ts",
+    "presentation/**/*.ts",
   ],
   tests: [
-    "src/**/*.test.ts",
+    "presentation/**/*.test.ts",
   ],
 });

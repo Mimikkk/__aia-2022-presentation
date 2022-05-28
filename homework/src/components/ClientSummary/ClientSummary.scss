@@ -1,0 +1,5 @@
+.ClientSummary {
+  td:nth-child(n+2) {
+    @apply text-right;
+  }
+}

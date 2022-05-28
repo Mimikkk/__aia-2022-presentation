@@ -1,0 +1,5 @@
+.ClientList {
+  td:nth-child(n+4) {
+    @apply text-right;
+  }
+}

@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply w-screen h-screen m-0;
+  @apply bg-gray-700;
+  @apply text-zinc-200;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+#root {
+  @apply w-full h-full;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+  @apply box-border p-0 m-0;
+}
+
+*::-webkit-scrollbar {
+  @apply w-2;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-slate-800;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-slate-900;
+}
+
+table {
+  tbody {
+    @apply h-[800px] block overflow-auto;
+  }
+
+  thead, tbody tr {
+    @apply w-full table table-fixed;
+  }
+
+  td, th {
+    @apply p-2;
+    @apply border border-amber-50;
+    @apply capitalize;
+  }
+
+  th {
+    @apply bg-slate-800;
+  }
+
+  tr:nth-child(odd) {
+    @apply bg-slate-600;
+  }
+
+  tr:nth-child(even) {
+    @apply bg-slate-700;
+  }
+}

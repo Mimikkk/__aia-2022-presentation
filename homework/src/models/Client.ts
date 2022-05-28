@@ -8,8 +8,12 @@ export interface Client {
 
   cash: number;
   credit: number;
-  score: {
+  score: Client.Score;
+}
+
+export module Client {
+  export interface Score {
     value: number;
     percent: number;
-  };
+  }
 }

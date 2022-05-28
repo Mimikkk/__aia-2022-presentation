@@ -1,7 +1,7 @@
 export enum ClientType {
-  Standard = "Standard",
-  Employee = "Employee",
-  Student = "Student",
+  Standard = "standard",
+  Employee = "employee",
+  Student = "student",
 }
 
 export module ClientType {

@@ -38,7 +38,8 @@ code {
 
 table {
   tbody {
-    @apply h-[800px] block overflow-auto;
+    width: calc(100% + 0.5rem);
+    @apply h-[800px] block overflow-y-scroll;
   }
 
   thead, tbody tr {
@@ -46,7 +47,7 @@ table {
   }
 
   td, th {
-    @apply p-2;
+    @apply p-1;
     @apply border border-amber-50;
     @apply capitalize;
   }

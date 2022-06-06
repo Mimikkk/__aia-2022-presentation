@@ -1,18 +1,16 @@
-Wykłady: 
+Wykłady:
 
-Link: [Domain Modeling Made Functional - Scott Wlaschin](https://www.youtube.com/watch?v=1pSH8kElmM4)
-
-Link: [Functional Design Patterns - Scott Wlaschin](https://www.youtube.com/watch?v=srQt1NAHYC0)
-
-Link: [The Functional Programmer's Toolkit - Scott Wlaschin](https://www.youtube.com/watch?v=Nrp_LZ-XGsY)
+- [The Functional Programmer's Toolkit - Scott Wlaschin](https://www.youtube.com/watch?v=Nrp_LZ-XGsY)
+- [Functional Design Patterns - Scott Wlaschin](https://www.youtube.com/watch?v=srQt1NAHYC0)
+- [Domain Modeling Made Functional - Scott Wlaschin](https://www.youtube.com/watch?v=1pSH8kElmM4)
 
 Zasób zawierający większość informacji dotyczące aktualnego stanu świata programowania funkcyjnego w Javascript'cie.
 
 Zasoby:
 
-Link: [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
+- [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
 
-Następna wersja javascript będzie wspierała operator pipeline w stylu 
+Następna wersja javascript będzie wspierała operator pipeline w stylu
 [hack](https://github.com/tc39/proposal-pipeline-operator).
 
 Przykład:

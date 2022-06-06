@@ -10,11 +10,13 @@ interface ListEffect<T> extends Array<T> {}
 type OptionEffect<T> = T | undefined;
 
 // To jest efektowny wynik.
-type ResultEffect<T> = {
-  value: T;
-} | {
-  error: Error;
-};
+type ResultEffect<T> =
+  | {
+      value: T;
+    }
+  | {
+      error: Error;
+    };
 
 // To jest podnoszenie z jednego świata do drugiego.
 export const toList = <T>(value: T): ListEffect<T> => [value];
@@ -22,7 +24,6 @@ export const toList = <T>(value: T): ListEffect<T> => [value];
 // To jest opuszczanie ( redukcja ) z drugiego świata do pierwszego.
 // Często jest stratne i nieodwracalne. ale nie zawsze.
 export const first = <T>(list: ListEffect<T>): OptionEffect<T> => list[0];
-
 
 // Łacznie Efekt i funkcja podnosząca tworzy Funktor.
 export const toResult = <T>(value: T): ResultEffect<T> => ({
@@ -74,7 +75,6 @@ const add2 = (n: number) => add(n, 2);
 // na wszelkie sposoby.
 // kompozycja jako kolejność operacji.
 // currying jako segmentacja funkcji.
-
 
 // W javascriptcie mamy funkcje, które tworzą podstawę naszego doświadczenia
 // funkcyjnego, które mogą być często łączone w jedną jednostkę działania.
